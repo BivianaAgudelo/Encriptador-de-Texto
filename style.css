@@ -137,11 +137,7 @@ button:hover {
 .mensaje {
   height: 800px;
   width: 400px;
-  background: #e3e8ec;
-  background-image: url("img/encriptador.jfif");
-  background-size: 100%;
-  background-position: center top;
-  background-repeat: no-repeat;
+  background: #ebeff1;
   border-radius: 15px;
   border: none;
   color: #0a3871;
@@ -157,6 +153,24 @@ button:hover {
 .mensaje-container {
   position: relative;
   text-align: center;
+}
+
+.img-robot-encriptador {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  align-items: center;
+  left: 0;
+  right: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.img-robot-encriptador > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
 }
 
 .mensaje-no-encontrado {
@@ -194,7 +208,6 @@ button:hover {
   border-bottom: 2px solid #0e141c;
   text-decoration: none;
   margin-right: 100px;
-  
 }
 
 .contenedor-btn {
