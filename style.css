@@ -1,0 +1,235 @@
+body {
+  background-color: #afcdea;
+  /* background: linear-gradient(
+    to bottom,
+    #66e3da 0%,
+    #50c7cf 20%,
+    #3da2bb 40%,
+    #2c7ea8 60%,
+    #1d5c94 80%,
+    #113d80 90%,
+    #08226c 100%
+  ); */
+}
+
+/* 
+  header
+*/
+
+header {
+  background-color: #113d80;
+  color: white;
+  padding: 10px;
+  font-family: "orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.caja {
+  display: flex;
+  align-items: center;
+  background: #1d5c94;
+}
+
+h1 {
+  margin: 0;
+}
+
+#header-section img {
+  max-width: 300px;
+  margin-right: 50px; /* Añade un margen a la derecha de la imagen para separar del texto */
+  border-radius: 30px;
+  padding: 10px 0 10px 10px;
+}
+
+#header-section img {
+  transition: transform 3s;
+}
+
+#header-section img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* 
+  main
+*/
+
+main {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  margin: 50px 0;
+}
+
+.text-area {
+  border: none;
+  color: #0a3871;
+  margin-top: 90px;
+  text-transform: lowercase;
+  font-family: "orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  background-color: #afcdea;
+}
+::placeholder {
+  color: #0a3871;
+}
+.text-area:focus {
+  outline: none;
+}
+
+.informacion {
+  font-family: "orbitron", sans-serif;
+  font-size: 15px;
+}
+
+.container-btn {
+  width: 600px;
+  display: flex;
+  margin-top: 18px;
+  gap: 30px;
+}
+
+.btn-desencriptar {
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 30px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 60px;
+  width: 200px;
+  font-family: "orbitron", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 15px 35px #0a3871;
+  border-top: 2px solid #0e141c;
+  border-bottom: 2px solid #0e141c;
+  text-decoration: none;
+}
+
+.btn-encriptar {
+  background: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 30px;
+  color: #f0f6f5;
+  cursor: pointer;
+  height: 60px;
+  width: 200px;
+  font-family: "orbitron", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 15px 35px #0a3871;
+  border-top: 2px solid #0e141c;
+  border-bottom: 2px solid #0e141c;
+  text-decoration: none;
+}
+
+button {
+  transition: 0.5s;
+}
+
+button:hover {
+  letter-spacing: 2px;
+}
+
+.mensaje {
+  height: 800px;
+  width: 400px;
+  background: #e3e8ec;
+  background-image: url("img/encriptador.jfif");
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  border: none;
+  color: #0a3871;
+  font-family: "orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.mensaje:focus {
+  outline: none;
+}
+
+.mensaje-container {
+  position: relative;
+  text-align: center;
+}
+
+.mensaje-no-encontrado {
+  font-family: "orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  color: #062040;
+}
+
+.mensaje-no-encontrado h6 span.resaltar {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.btn-copiar {
+  background: #def2f3;
+  border: 1px solid #0a3871;
+  border-radius: 30px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 60px;
+  width: 200px;
+  font-family: "orbitron", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 15px 40px #0a3871;
+  border-top: 2px solid #0e141c;
+  border-bottom: 2px solid #0e141c;
+  text-decoration: none;
+  margin-right: 100px;
+  
+}
+
+.contenedor-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+/* 
+  footer
+*/
+
+footer {
+  text-align: center;
+  background: #020c1b;
+  padding: 40px;
+}
+
+.img-footer {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.copyright {
+  font-size: 13px;
+  margin: 20px;
+  font-family: "orbitron", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.img-icon {
+  width: 50px;
+  background: #66e3da;
+  box-shadow: 0 0 20px #66e3da;
+  border-radius: 10px;
+}
