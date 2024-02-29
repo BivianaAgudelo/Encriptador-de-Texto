@@ -59,3 +59,12 @@ function desencriptar(fraseDesencriptada) {
   }
   return fraseDesencriptada;
 }
+
+
+function btnCopiarAlPortapapeles() {
+    const texto = document.querySelector(".mensaje"); 
+
+    navigator.clipboard.writeText(texto.value)
+        
+}
+
