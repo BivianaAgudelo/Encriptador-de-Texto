@@ -41,6 +41,7 @@
       <section>
         <div>
           <textarea
+            id="ingresar-texto"
             class="text-area"
             cols="30"
             rows="10"
@@ -54,12 +55,12 @@
           </div>
         </div>
         <div class="container-btn">
-          <button  class="btn-encriptar">Encriptar!</button>
+          <button  class="btn-encriptar" onclick="btnEncriptar()">Encriptar!</button>
           <button class="btn-desencriptar">Desencriptar!</button>
         </div>
       </section>
       <section class="mensaje-container">
-        <textarea class="mensaje"></textarea>
+        <textarea id="campo-encriptado" class="mensaje"></textarea>
         <div class="img-robot-encriptador">
           <img  src="img/encriptador.jfif" alt="robot-encriptador" />
         </div>
@@ -99,5 +100,7 @@
         <img class="img-icon" src="img/linkedin.png" alt="LinkedIn" />
       </a>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

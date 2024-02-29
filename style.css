@@ -83,6 +83,7 @@ main {
 .informacion {
   font-family: "orbitron", sans-serif;
   font-size: 15px;
+  margin-top: 147px;
 }
 
 .container-btn {
@@ -103,7 +104,7 @@ main {
   font-family: "orbitron", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  box-shadow: 0 15px 35px #0a3871;
+  box-shadow: 0 15px 35px #2c7ea8;
   border-top: 2px solid #0e141c;
   border-bottom: 2px solid #0e141c;
   text-decoration: none;
@@ -120,7 +121,7 @@ main {
   font-family: "orbitron", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  box-shadow: 0 15px 35px #0a3871;
+  box-shadow: 0 15px 35px #2c7ea8;
   border-top: 2px solid #0e141c;
   border-bottom: 2px solid #0e141c;
   text-decoration: none;
@@ -203,7 +204,7 @@ button:hover {
   font-family: "orbitron", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  box-shadow: 0 15px 40px #0a3871;
+  box-shadow: 0 15px 40px #2c7ea8;
   border-top: 2px solid #0e141c;
   border-bottom: 2px solid #0e141c;
   text-decoration: none;
@@ -242,7 +243,7 @@ footer {
 
 .img-icon {
   width: 50px;
-  background: #66e3da;
-  box-shadow: 0 0 20px #66e3da;
+  background: #afcdea;
+  box-shadow: 0 0 20px #afcdea;
   border-radius: 10px;
 }
